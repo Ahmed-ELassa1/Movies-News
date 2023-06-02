@@ -1,0 +1,87 @@
+
+.home {
+    font-family: 'Bitter', serif;
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+.page-number {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.page-item .page-link{
+    color: #fff;
+    background-color: rgb(53, 53, 53);
+}
+.trending {
+    margin-bottom: 30px;
+}
+
+.trending-title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.top-line {
+    width: 25%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.329);
+    position: absolute;
+    top: 15%;
+}
+
+.bottom-line {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.329);
+    position: absolute;
+    bottom: 15%;
+
+}
+
+.trending-title h2 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 20px;
+
+}
+
+.trending-title p {
+    color: #ffffff5e;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+
+}
+
+.trending-display {
+    margin-bottom: 20px;
+}
+
+.trending-display img {
+    width: 100%;
+
+}
+
+.trending-display h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+.tv-img{
+    height: 250px;
+}

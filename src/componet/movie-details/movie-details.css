@@ -1,0 +1,42 @@
+.movie-details {
+    font-family: 'Bitter', serif;
+    padding: 30px 20px;
+    width: 100%;
+
+}
+.movie-details-description h2{
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 1.3px;
+}
+.movie-details-description h4{
+    color: #ffffff70;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+    margin-bottom: 30px;
+}
+.genres{
+    border-radius: 12px;
+    padding: 8px 12px;
+    color: #fff;
+    margin-right: 15px;
+    background-color: rgb(16, 182, 182);
+}
+.statics{
+    margin-top: 35px;
+}
+.statics p{
+    margin: 10px;
+    letter-spacing: 1.2px;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.movie-overview{
+    margin-top: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.267);
+}
