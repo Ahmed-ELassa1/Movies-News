@@ -46,7 +46,7 @@ export default function App() {
       return props.children;
     }
   }
-  const routers = createBrowserRouter([
+  const routers = createHashRouter([
     {
       path: "/",
       element: <MasterLayout user={user} logOut={logOut} />,
