@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./register.css";
 import Joi from "joi";
 import { useNavigate } from "react-router-dom";
-import { auth } from "../Config/Firebase";
+import { auth } from "../Conf/Firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import axios from "axios";
 export default function Register() {

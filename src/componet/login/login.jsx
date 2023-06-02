@@ -3,7 +3,7 @@ import "../register/register.css";
 import Joi from "joi";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { auth } from "../Config/Firebase";
+import { auth } from "../Conf/Firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 export default function Login({ saveUserData }) {
